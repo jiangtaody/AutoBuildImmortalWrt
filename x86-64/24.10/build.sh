@@ -20,8 +20,6 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES luci/luci-i18n-wol-zh-cn_24.362.20051~34c1f40_all.ipk"
-PACKAGES="$PACKAGES luci-proto-wireguard_24.362.20051~34c1f40_all.ipk"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
